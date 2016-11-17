@@ -11,43 +11,43 @@
     <!-- TODO: Use PHP to have an include for a universal header and footer so there isn't so much copy and paste code -->
     <header>
       <nav class="navbar navbar-dark bg-light" id="menu">
-        <a href="index.html" class="navbar-brand menu-item">UNIEL[st] ver.3.10 Frame Data</a>
+        <a href="index.php" class="navbar-brand menu-item">UNIEL[st] ver.3.10 Frame Data</a>
         <ul class="nav navbar-nav">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link menu-item">Home <span class="sr-only">(current)</span></a>
+            <a href="index.php" class="nav-link menu-item">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Characters <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="chara/hyde.html">Hyde</a></li>
-              <li><a href="chara/linne.html">Linne</a></li>
-              <li><a href="chara/waldstein.html">Waldstein</a></li>
-              <li><a href="chara/carmine.html">Carmine</a></li>
-              <li><a href="construction/index.html">Orie</a></li>
-              <li><a href="construction/index.html">Gordeau</a></li>
-              <li><a href="construction/index.html">Merkava</a></li>
-              <li><a href="construction/index.html">Vatista</a></li>
-              <li><a href="construction/index.html">Seth</a></li>
-              <li><a href="construction/index.html">Yuzuriha</a></li>
-              <li><a href="construction/index.html">Hilda</a></li>
-              <li><a href="construction/index.html">Chaos</a></li>
-              <li><a href="construction/index.html">Eltnum</a></li>
-              <li><a href="construction/index.html">Akatsuki</a></li>
-              <li><a href="construction/index.html">Nanase</a></li>
-              <li><a href="construction/index.html">Byakuya</a></li>
-              <li><a href="construction/index.html">Phonon</a></li>
-              <li><a href="construction/index.html">Mika</a></li>
+              <li><a href="chara/hyde.php">Hyde</a></li>
+              <li><a href="chara/linne.php">Linne</a></li>
+              <li><a href="chara/waldstein.php">Waldstein</a></li>
+              <li><a href="chara/carmine.php">Carmine</a></li>
+              <li><a href="construction/index.php">Orie</a></li>
+              <li><a href="construction/index.php">Gordeau</a></li>
+              <li><a href="construction/index.php">Merkava</a></li>
+              <li><a href="construction/index.php">Vatista</a></li>
+              <li><a href="construction/index.php">Seth</a></li>
+              <li><a href="construction/index.php">Yuzuriha</a></li>
+              <li><a href="construction/index.php">Hilda</a></li>
+              <li><a href="construction/index.php">Chaos</a></li>
+              <li><a href="construction/index.php">Eltnum</a></li>
+              <li><a href="construction/index.php">Akatsuki</a></li>
+              <li><a href="construction/index.php">Nanase</a></li>
+              <li><a href="construction/index.php">Byakuya</a></li>
+              <li><a href="construction/index.php">Phonon</a></li>
+              <li><a href="construction/index.php">Mika</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="glossary/index.html" class="nav-link menu-item">Glossary</a>
+            <a href="glossary/index.php" class="nav-link menu-item">Glossary</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="contents/contact.html">Contact Us</a></li>
-              <li><a href="contents/faq.html">About This Site</a></li>
-              <li><a href="contents/link.html">Links</a></li>
+              <li><a href="contents/contact.php">Contact Us</a></li>
+              <li><a href="contents/faq.php">About This Site</a></li>
+              <li><a href="contents/link.php">Links</a></li>
             </ul>
           </li>
         </ul>
@@ -57,19 +57,19 @@
     <img id="mainLogo" src="./img/unielst_logo.jpg" alt="UNDER NIGHT IN-BIRTH Exe:Late[st]" /><br>
 
     <div class="chara-icon-row">
-      <a href="chara/hyde.html" class="chara-icon">
+      <a href="chara/hyde.php" class="chara-icon">
         <img src="./img/chara_icon/uni01_hyde.png" alt="Hyde" />
       </a>
 
-      <a href="chara/linne.html" class="chara-icon">
+      <a href="chara/linne.php" class="chara-icon">
         <img src="./img/chara_icon/uni02_linne.png" alt="Linne" />
       </a>
 
-      <a href="chara/waldstein.html" class="chara-icon">
+      <a href="chara/waldstein.php" class="chara-icon">
         <img src="./img/chara_icon/uni03_waldstein.png" alt="Waldstein" />
       </a>
 
-      <a href="chara/carmine.html" class="chara-icon">
+      <a href="chara/carmine.php" class="chara-icon">
         <img src="./img/chara_icon/uni04_carmine.png" alt="Carmine" />
       </a>
     </div>
