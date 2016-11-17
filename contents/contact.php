@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
   </head>
   <body>
+    <?php include('../includes/header.php') ?>
+
     <h1>Contact Us</h1>
 
     <br>
