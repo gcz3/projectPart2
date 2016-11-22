@@ -22,25 +22,25 @@
       * indicates required field
     </p>
 
-    <form method="get" id="contactForm">
-      <div class="form-group" id="nameField">
-        <label for="name">Name:*</label>
-        <input type="text" class="form-control" id="name">
+    <form action="submit" method="post" id="contactForm">
+      <div class="form-group">
+        <label for="i_name">Name:</label>
+        <input type="text" class="form-control" id="i_name" name="name">
+      </div>
+
+      <div class="form-group" id="emailField">
+        <label for="i_email">Email:*</label>
+        <input type="email" class="form-control" id="i_email" name="email">
       </div>
 
       <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email">
-      </div>
-
-      <div class="form-group">
-        <label for="subject">Subject:</label>
-        <input type="text" class="form-control" id="subject">
+        <label for="i_subject">Subject:</label>
+        <input type="text" class="form-control" id="i_subject" name="subject">
       </div>
 
       <div class="form-group" id="messageField">
-        <label for="message">Message:*</label>
-        <textarea class="form-control" id="message" rows="10"></textarea>
+        <label for="i_message">Message:*</label>
+        <textarea class="form-control" id="i_message" rows="10" name="message"></textarea>
       </div>
 
       <button type="submit" class="btn">Submit</button>
