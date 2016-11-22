@@ -14,7 +14,7 @@
 
     <br>
 
-    <ul>
+    <ul id="listOfLinks">
       <li>
         <a href="http://www.arcsystemworks.jp/unist/" target="_blank">Offical Site</a>
       </li>

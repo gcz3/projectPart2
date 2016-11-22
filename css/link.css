@@ -7,6 +7,6 @@ li {
   color: white;
 }
 
-a {
+#listOfLinks>li>a {
   font-size: 30px;
 }
