@@ -11,7 +11,24 @@ p {
   color: white;
 }
 
-#menu>ul>li>a:focus, #menu>ul>li>a:hover {
+#menu>ul>li>a:focus, #menu>ul>li>a:hover, #header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
+  background-color: darkgrey;
+}
+
+#headerCollapseButton {
+  background-color: purple;
+}
+
+#headerCollapseButton>span {
+  background-color: white;
+}
+
+#header-navbar>ul>li>ul>li>a {
+  color: black;
+  background-color: white;
+}
+
+#header-navbar>ul>li>ul>li>a:hover, #header-navbar>ul>li>ul>li>a:focus {
   background-color: darkgrey;
 }
 
