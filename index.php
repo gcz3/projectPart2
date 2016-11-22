@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Project 1</title>
+    <title>UNIEL[st] ver.3.10 Frame Data</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/master.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
@@ -56,9 +56,7 @@
       <img class="chara-icon chara-icon-temp" src="./img/uni18_mika_temp.png" alt="Mika" />
     </div>
 
-    <footer class="footer">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-text="@mattbowytz is the best teacher ever!!!" data-hashtags="CS1550" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </footer>
+    <?php include('includes/footer.php') ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
