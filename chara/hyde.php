@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../css/frame_data.css">
   </head>
   <body>
+    <?php include('../includes/header.php') ?>
+
     <h2>Hyde</h2>
 
     <br>

@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../css/faq.css">
   </head>
   <body>
+    <?php include('../includes/header.php') ?>
+
     <h1>Hello!</h1>
 
     <p>

@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../css/construction.css">
   </head>
   <body>
+    <?php include('includes/header.php') ?>
+
     <h1>
       Under Construction! <br>
       Check back after second part of project.
