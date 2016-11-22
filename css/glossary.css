@@ -1,6 +1,7 @@
 .section {
   background-color: black;
   border: white 4px solid;
+  margin: 30px;
 }
 
 .section-title {
