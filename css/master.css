@@ -23,6 +23,10 @@ p {
   background-color: white;
 }
 
+#headerCollapseButton:hover>span {
+  background-color: darkgrey;
+}
+
 #header-navbar>ul>li>ul>li>a {
   color: black;
   background-color: white;
