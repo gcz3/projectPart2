@@ -12,7 +12,7 @@
         <a href="../../projectPart2" class="navbar-brand menu-item">UNIEL[st] ver.3.10 Frame Data</a>
       </div>
 
-      <div class="collapse navbar-collapse" id="header-navbar">
+      <div class="collapse navbar-collapse" id="headerNavbar">
         <ul class="nav navbar-nav">
           <li class="nav-item active">
             <a href="../../projectPart2" class="nav-link menu-item">Home <span class="sr-only">(current)</span></a>

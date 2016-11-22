@@ -1,4 +1,4 @@
-body {
+html, body {
   background-color: #0d0d0d;
 }
 
@@ -11,7 +11,11 @@ p {
   color: white;
 }
 
-#menu>ul>li>a:focus, #menu>ul>li>a:hover, #header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
+footer {
+  border-top: solid purple;
+}
+
+#menu>ul>li>a:focus, #menu>ul>li>a:hover, #headerNavbar>ul>li>a:focus, #headerNavbar>ul>li>a:hover {
   background-color: darkgrey;
 }
 
@@ -27,13 +31,24 @@ p {
   background-color: darkgrey;
 }
 
-#header-navbar>ul>li>ul>li>a {
+#headerNavbar>ul>li>ul>li>a {
   color: black;
   background-color: white;
 }
 
-#header-navbar>ul>li>ul>li>a:hover, #header-navbar>ul>li>ul>li>a:focus {
+#headerNavbar>ul>li>ul>li>a:hover, #headerNavbar>ul>li>ul>li>a:focus {
   background-color: darkgrey;
+}
+
+#footerCarousel, #footerCarousel>div>div>a {
+  max-height: 200px;
+}
+
+.carousel-inner>.item>a>img {
+  height: 200px;
+  width: auto;
+  max-width: 400px;
+  margin: auto;
 }
 
 .menu-item {
