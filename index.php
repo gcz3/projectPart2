@@ -13,19 +13,19 @@
     <img id="mainLogo" src="./img/unielst_logo.jpg" alt="UNDER NIGHT IN-BIRTH Exe:Late[st]" /><br>
 
     <div class="chara-icon-row">
-      <a href="chara/hyde.php" class="chara-icon">
+      <a href="chara/hyde" class="chara-icon">
         <img src="./img/chara_icon/uni01_hyde.png" alt="Hyde" />
       </a>
 
-      <a href="chara/linne.php" class="chara-icon">
+      <a href="chara/linne" class="chara-icon">
         <img src="./img/chara_icon/uni02_linne.png" alt="Linne" />
       </a>
 
-      <a href="chara/waldstein.php" class="chara-icon">
+      <a href="chara/waldstein" class="chara-icon">
         <img src="./img/chara_icon/uni03_waldstein.png" alt="Waldstein" />
       </a>
 
-      <a href="chara/carmine.php" class="chara-icon">
+      <a href="chara/carmine" class="chara-icon">
         <img src="./img/chara_icon/uni04_carmine.png" alt="Carmine" />
       </a>
     </div>
