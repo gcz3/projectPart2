@@ -14,27 +14,26 @@
 
     <br>
 
-    <ul id="listOfLinks">
-      <li>
-        <a href="http://www.arcsystemworks.jp/unist/" target="_blank">Offical Site</a>
-      </li>
-      <br>
-      <li>
-        <a href="http://sp.uniac.jp/" target="_blank">Players Guild</a>
-      </li>
-      <br>
-      <li>
-        <a href="http://www18.atwiki.jp/un_inbirth/" target="_blank">Japanese Wiki</a>
-      </li>
-      <br>
-      <li>
-        <a href="https://drive.google.com/file/d/0B0n6SaJ2vGV3YUItdkEzZjc3bWs/view" target="_blank">Japanese Frame Data PDF</a>
-      </li>
-      <br>
-      <li>
-        <a href="http://wiki.mizuumi.net/w/Under_Night_In-Birth" target="_blank">English Wiki</a>
-      </li>
-    </ul>
+    <?php
+      echo "<ul id=\"listOfLinks\">";
+
+      $link = array(
+        "Offical Site"            =>  "http://www.arcsystemworks.jp/unist/",
+        "Players Guild"           =>  "http://sp.uniac.jp/",
+        "Japanese Wiki"           =>  "http://www18.atwiki.jp/un_inbirth/",
+        "Japanese Frame Data PDF" =>  "https://drive.google.com/file/d/0B0n6SaJ2vGV3YUItdkEzZjc3bWs/view",
+        "English Wiki"            =>  "http://wiki.mizuumi.net/w/Under_Night_In-Birth"
+      );
+
+      foreach ($link as $key => $website) {
+        echo "<li>
+                <a href=\"" . $website . "\" target=\"_blank\">" . $key . "</a>
+              </li>
+              <br>";
+      }
+
+      echo "</ul>";
+    ?>
 
     <?php include('../includes/footer.php') ?>
 
