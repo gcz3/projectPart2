@@ -39,15 +39,3 @@ h2 {
 .third-rekka {
   text-indent: 2em;
 }
-
-.chara-portrait {
-  width: 25%;
-  height: auto;
-  float: right;
-}
-
-@media screen and (max-width: 1819px) {
-  .chara-portrait {
-    display: none;
-  }
-}

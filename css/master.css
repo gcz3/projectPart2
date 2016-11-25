@@ -31,12 +31,12 @@ footer {
   background-color: darkgrey;
 }
 
-#headerNavbar>ul>li>ul>li>a {
+#header-navbar>ul>li>ul>li>a {
   color: black;
   background-color: white;
 }
 
-#headerNavbar>ul>li>ul>li>a:hover, #headerNavbar>ul>li>ul>li>a:focus {
+#header-navbar>ul>li>ul>li>a:hover, #header-navbar>ul>li>ul>li>a:focus {
   background-color: darkgrey;
 }
 

@@ -24,20 +24,20 @@
               <li><a href="../../projectPart2/chara/linne">Linne</a></li>
               <li><a href="../../projectPart2/chara/waldstein">Waldstein</a></li>
               <li><a href="../../projectPart2/chara/carmine">Carmine</a></li>
-              <li><a href="../../projectPart2/construction">Orie</a></li>
-              <li><a href="../../projectPart2/construction">Gordeau</a></li>
-              <li><a href="../../projectPart2/construction">Merkava</a></li>
-              <li><a href="../../projectPart2/construction">Vatista</a></li>
-              <li><a href="../../projectPart2/construction">Seth</a></li>
-              <li><a href="../../projectPart2/construction">Yuzuriha</a></li>
-              <li><a href="../../projectPart2/construction">Hilda</a></li>
-              <li><a href="../../projectPart2/construction">Chaos</a></li>
-              <li><a href="../../projectPart2/construction">Eltnum</a></li>
-              <li><a href="../../projectPart2/construction">Akatsuki</a></li>
-              <li><a href="../../projectPart2/construction">Nanase</a></li>
-              <li><a href="../../projectPart2/construction">Byakuya</a></li>
-              <li><a href="../../projectPart2/construction">Phonon</a></li>
-              <li><a href="../../projectPart2/construction">Mika</a></li>
+              <li><a href="../../projectPart2/chara/orie">Orie</a></li>
+              <li><a href="../../projectPart2/chara/gordeau">Gordeau</a></li>
+              <li><a href="../../projectPart2/chara/merkava">Merkava</a></li>
+              <li><a href="../../projectPart2/chara/vatista">Vatista</a></li>
+              <li><a href="../../projectPart2/chara/seth">Seth</a></li>
+              <li><a href="../../projectPart2/chara/yuzuriha">Yuzuriha</a></li>
+              <li><a href="../../projectPart2/chara/hilda">Hilda</a></li>
+              <li><a href="../../projectPart2/chara/chaos">Chaos</a></li>
+              <li><a href="../../projectPart2/chara/eltnum">Eltnum</a></li>
+              <li><a href="../../projectPart2/chara/akatsuki">Akatsuki</a></li>
+              <li><a href="../../projectPart2/chara/nanase">Nanase</a></li>
+              <li><a href="../../projectPart2/chara/byakuya">Byakuya</a></li>
+              <li><a href="../../projectPart2/chara/phonon">Phonon</a></li>
+              <li><a href="../../projectPart2/chara/mika">Mika</a></li>
             </ul>
           </li>
           <li class="nav-item">
