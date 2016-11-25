@@ -32,7 +32,7 @@
     /**
     * Fills in a cell for the table
     *
-    * @param  string  $row        The associative array that corresponds to the fetched row
+    * @param  array   $row        The associative array that corresponds to the fetched row
     * @param  string  $columnName The column that is will be filled
     * @return nothing
     */
