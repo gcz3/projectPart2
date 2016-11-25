@@ -1,12 +1,12 @@
 <?php
-  function createFrameDataTable($chara_name, $table_name) {
+  function createFrameDataTable($charaName, $tableName) {
 
-    function fillCell($row, $column_name) {
-      if (is_null($row[$column_name])) {
+    function fillCell($row, $columnName) {
+      if (is_null($row[$columnName])) {
         echo "<td>-</td>";
       }
       else {
-        $data = $row[$column_name];
+        $data = $row[$columnName];
         $rest = strstr($data, PHP_EOL, true);
         echo "<td>";
 
@@ -59,7 +59,7 @@
         }
     }
 
-    function connectToDatabase($table_name) {
+    function connectToDatabase($tableName) {
       $servername = "localhost";
       $username = "root";
       $password = "";
@@ -70,12 +70,12 @@
         die("Connection failed: " .$conn->connect_error);
       }
 
-      $sql = "SELECT * FROM " . $table_name;
+      $sql = "SELECT * FROM " . $tableName;
       $result = $conn->query($sql);
       fillTable($result);
     }
 
-    echo "<h2>" . $chara_name . "</h2>
+    echo "<h2>" . $charaName . "</h2>
 
           <br>
 
@@ -95,7 +95,7 @@
             </thead>
             <tbody>";
 
-              connectToDatabase($table_name);
+              connectToDatabase($tableName);
 
     echo "  </tbody>
           </table>";
