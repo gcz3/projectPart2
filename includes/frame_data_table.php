@@ -8,6 +8,7 @@
 * 10. notes
 *
 * Every column's type except id is text because there is a chance for letters
+* to occur in every single one. id is type int and unsigned.
 *
 * The color of the data that is different from the older version of the game is
 * changed to orange when displayed. The "changes" are represented in the
