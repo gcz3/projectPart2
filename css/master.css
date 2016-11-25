@@ -15,7 +15,7 @@ footer {
   border-top: solid purple;
 }
 
-#menu>ul>li>a:focus, #menu>ul>li>a:hover, #headerNavbar>ul>li>a:focus, #headerNavbar>ul>li>a:hover {
+#menu>ul>li>a:focus, #menu>ul>li>a:hover, #header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
   background-color: darkgrey;
 }
 
