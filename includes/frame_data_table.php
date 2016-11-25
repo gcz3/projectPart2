@@ -1,4 +1,22 @@
 <?php
+/**
+* Used on every character page to grab the frame data from the database.
+*
+* The table structure for each character is set up with 10 columns:
+* 1. id (AUTO_INCREMENT)  2. move_name  3. startup 4. block_advantage
+* 5. hit_level  6. cancel_ability 7. total_frames 8.damage  9. invincibility
+* 10. notes
+*
+* The color of the data that is different from the older version of the game is
+* changed to orange when displayed. The "changes" are represented in the
+* database by having a '!' before the info and this is handled and dealt with
+* when displaying.
+*
+* Data with special characters, such as the Unicode Character
+* "RIGHTWARDS ARROW", are dealt with by storing them in the database as HTML
+* character entites. For example, the "RIGHTWARDS ARROW" is stored as "$rarr;".
+*/
+
   /**
   * Makes the page (title and table) for whatever character specified
   *
