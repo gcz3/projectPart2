@@ -7,6 +7,8 @@
 * 5. hit_level  6. cancel_ability 7. total_frames 8.damage  9. invincibility
 * 10. notes
 *
+* Every column's type except id is text because there is a chance for letters
+*
 * The color of the data that is different from the older version of the game is
 * changed to orange when displayed. The "changes" are represented in the
 * database by having a '!' before the info and this is handled and dealt with
