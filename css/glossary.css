@@ -1,12 +1,12 @@
 .section {
-  background-color: black;
-  border: white 4px solid;
+  background-color: #000;
+  border: #FFF 4px solid;
   margin: 30px;
 }
 
 .section-title {
-  background-color: purple;
-  color: white;
+  background-color: #808;
+  color: #FFF;
   border: #666 3px solid;
   padding: 5px;
   margin: 5px 0px 5px 0px;

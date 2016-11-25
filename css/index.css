@@ -1,7 +1,6 @@
 #mainLogo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .chara-icon-row {
@@ -9,8 +8,7 @@
 }
 
 .chara-icon {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 10px;
 }
 

@@ -1,34 +1,36 @@
 h2 {
-  color: white;
+  color: #FFF;
+  margin: 0 10px;
 }
 
 .frame-data-table {
   border-width: 3px;
+  margin: 0 10px;
 }
 
 .frame-data-table>thead>tr>th {
-  color: white;
-  background-color: purple;
+  color: #FFF;
+  background-color: #808;
 }
 
 .table-striped>tbody>tr:nth-child(even)>td,
 .table-striped>tbody>tr:nth-child(even)>th {
-  color: white;
-  background-color: purple;
+  color: #FFF;
+  background-color: #808;
  }
 
  .table-striped>tbody>tr:nth-child(odd)>td,
  .table-striped>tbody>tr:nth-child(odd)>th {
-   color: white;
-   background-color: black;
+   color: #FFF;
+   background-color: #000;
   }
 
   .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #006666;
+  background-color: #066;
 }
 
 .balance-change {
-  color: orange !important;
+  color: #FA0 !important;
   font-weight: bold;
 }
 

@@ -1,5 +1,5 @@
 h1 {
-  color: yellow;
+  color: #FF0;
 }
 
 video {
@@ -10,6 +10,6 @@ video {
 
 p {
   text-align: center;
-  color: lightblue;
+  color: #ADE;
   font-size: 50px;
 }

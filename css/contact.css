@@ -7,22 +7,22 @@ p {
 }
 
 #contactForm {
-  margin: 50px 400px;
+  margin: auto 200px;
 }
 
 #contactForm>div>label {
-  color: white;
+  color: #FFF;
   font-size: 18px;
 }
 
 .btn {
   font-size: 18px;
-  color: white;
-  background-color: purple;
-  border-color: purple;
+  color: #FFF;
+  background-color: #808;
+  border-color: #808;
 }
 
 .btn:focus, .btn:hover {
-  color: white;
-  background-color: darkgrey;
+  color: #FFF;
+  background-color: #AAA;
 }

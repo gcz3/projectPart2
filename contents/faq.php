@@ -19,9 +19,11 @@
 
       <br><br>
 
-      There is still more I can do to make this website much better, and
-      hopefully, I'll get a chance to realize some of those changes in the
-      second part of this project.
+      This is the second part of this project. I have managed to add a lot with
+      the main new addition being that all the frame data is stored in a
+      database across various tables. However, as always, there is still more
+      I could do to make this website much better (especially since I suck at
+      design). orz
     </p>
 
     <?php include('../includes/footer.php') ?>

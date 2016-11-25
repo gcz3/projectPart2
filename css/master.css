@@ -3,41 +3,41 @@ html, body {
 }
 
 h1 {
-  color: white;
+  color: #FFF;
   text-align: center;
 }
 
 p {
-  color: white;
+  color: #FFF;
 }
 
 footer {
-  border-top: solid purple;
+  border-top: solid #808;
 }
 
 #menu>ul>li>a:focus, #menu>ul>li>a:hover, #header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
-  background-color: darkgrey;
+  background-color: #AAA;
 }
 
 #headerCollapseButton {
-  background-color: purple;
+  background-color: #808;
 }
 
 #headerCollapseButton>span {
-  background-color: white;
+  background-color: #FFF;
 }
 
 #headerCollapseButton:hover>span {
-  background-color: darkgrey;
+  background-color: #AAA;
 }
 
 #header-navbar>ul>li>ul>li>a {
-  color: black;
-  background-color: white;
+  color: #000;
+  background-color: #FFF;
 }
 
 #header-navbar>ul>li>ul>li>a:hover, #header-navbar>ul>li>ul>li>a:focus {
-  background-color: darkgrey;
+  background-color: #AAA;
 }
 
 #footerCarousel, #footerCarousel>div>div>a {
@@ -52,15 +52,15 @@ footer {
 }
 
 .menu-item {
-  background-color: purple;
-  color: white;
+  background-color: #808;
+  color: #FFF;
 }
 
 .menu-item:focus, .menu-item:hover {
-  color: white;
-  background-color: darkgrey;
+  color: #FFF;
+  background-color: #AAA;
 }
 
 .version-change {
-  color: orange;
+  color: #FA0;
 }
