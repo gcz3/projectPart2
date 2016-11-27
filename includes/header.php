@@ -20,24 +20,22 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Characters <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="../../projectPart2/chara/hyde">Hyde</a></li>
-              <li><a href="../../projectPart2/chara/linne">Linne</a></li>
-              <li><a href="../../projectPart2/chara/waldstein">Waldstein</a></li>
-              <li><a href="../../projectPart2/chara/carmine">Carmine</a></li>
-              <li><a href="../../projectPart2/chara/orie">Orie</a></li>
-              <li><a href="../../projectPart2/chara/gordeau">Gordeau</a></li>
-              <li><a href="../../projectPart2/chara/merkava">Merkava</a></li>
-              <li><a href="../../projectPart2/chara/vatista">Vatista</a></li>
-              <li><a href="../../projectPart2/chara/seth">Seth</a></li>
-              <li><a href="../../projectPart2/chara/yuzuriha">Yuzuriha</a></li>
-              <li><a href="../../projectPart2/chara/hilda">Hilda</a></li>
-              <li><a href="../../projectPart2/chara/chaos">Chaos</a></li>
-              <li><a href="../../projectPart2/chara/eltnum">Eltnum</a></li>
-              <li><a href="../../projectPart2/chara/akatsuki">Akatsuki</a></li>
-              <li><a href="../../projectPart2/chara/nanase">Nanase</a></li>
-              <li><a href="../../projectPart2/chara/byakuya">Byakuya</a></li>
-              <li><a href="../../projectPart2/chara/phonon">Phonon</a></li>
-              <li><a href="../../projectPart2/chara/mika">Mika</a></li>
+              <?php
+                $chara = array("Hyde", "Linne", "Waldstein", "Carmine", "Orie",
+                  "Gordeau", "Merkava", "Vatista", "Seth", "Yuzuriha", "Hilda",
+                  "Chaos", "Eltnum", "Akatsuki", "Nanase", "Byakuya", "Phonon",
+                  "Mika");
+                $arrlength = count($chara);
+
+                for ($x=0; $x < $arrlength; $x++) {
+                  echo "<li>
+                          <a href=\"../../projectPart2/chara/" .
+                            strtolower($chara[$x]) .
+                            "\">" . $chara[$x] .
+                          "</a>
+                        </li>";
+                }
+              ?>
             </ul>
           </li>
           <li class="nav-item">
