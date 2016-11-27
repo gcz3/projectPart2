@@ -46,7 +46,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="../../projectPart2/contents/contact.php">Contact Us</a></li> <!-- for some reason, this particular link refuses to work without the .php extension -->
+              <li><a href="../../projectPart2/contents/contact">Contact Us</a></li>
               <li><a href="../../projectPart2/contents/faq">About This Site</a></li>
               <li><a href="../../projectPart2/contents/link">Links</a></li>
             </ul>
