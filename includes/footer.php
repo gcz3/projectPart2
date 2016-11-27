@@ -60,3 +60,5 @@
 </footer>
 
 <br>
+
+<script src="../../projectPart2/js/footer.js"></script>
