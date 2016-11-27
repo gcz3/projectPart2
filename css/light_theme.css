@@ -1,0 +1,127 @@
+html, body {
+  background-color: #FFF;
+}
+
+h1 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+footer {
+  border-top-color: #F00;
+}
+
+#menu>ul>li>a:focus, #menu>ul>li>a:hover,
+#header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
+  background-color: #000;
+}
+
+#headerCollapseButton {
+  background-color: #F00;
+}
+
+#headerCollapseButton>span {
+  background-color: #FFF;
+}
+
+#headerCollapseButton:hover>span {
+  background-color: #000;
+}
+
+#header-navbar>ul>li>ul>li>a:hover, #header-navbar>ul>li>ul>li>a:focus {
+  background-color: #000;
+  color: #FFF;
+}
+
+.menu-item {
+  background-color: #F00;
+}
+
+.menu-item:focus, .menu-item:hover {
+  background-color: #000;
+}
+
+.version-change {
+  color: #009;
+}
+
+.section {
+  background-color: #FFF;
+  border-color: #000;
+}
+
+.section-title {
+  background-color: #F00;
+  border-color: #000;
+}
+
+h2 {
+  color: #000;
+}
+
+.frame-data-table>thead>tr>th {
+  background-color: #F00;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #F00;
+ }
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  color: #000;
+  background-color: #FFF;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td>.balance-change,
+.table-striped>tbody>tr:nth-child(even)>th>.balance-change {
+  color: #0FF;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td>.balance-change,
+.table-striped>tbody>tr:nth-child(odd)>th>.balance-change {
+  color: #009;
+}
+
+.table-bordered,
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+  border-color: #000;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  color: #FFF;
+  background-color: #000;
+  border-color: #FFF;
+}
+
+.table-hover tbody tr:hover td>.balance-change,
+.table-hover tbody tr:hover th>.balance-change {
+  color: #0FF;
+}
+
+#contactForm>div>label {
+  color: #000;
+}
+
+.btn {
+  background-color: #F00;
+  border-color: #F00;
+}
+
+.btn:focus, .btn:hover {
+  background-color: #000;
+}
+
+li {
+  color: #000;
+}

@@ -1,5 +1,5 @@
 html, body {
-  background-color: #0d0d0d;
+  background-color: #000;
 }
 
 h1 {
@@ -12,15 +12,16 @@ p {
 }
 
 footer {
-  border-top: solid #808;
+  border-top: solid #909;
 }
 
-#menu>ul>li>a:focus, #menu>ul>li>a:hover, #header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
-  background-color: #AAA;
+#menu>ul>li>a:focus, #menu>ul>li>a:hover,
+#header-navbar>ul>li>a:focus, #header-navbar>ul>li>a:hover {
+  background-color: #999;
 }
 
 #headerCollapseButton {
-  background-color: #808;
+  background-color: #909;
 }
 
 #headerCollapseButton>span {
@@ -28,7 +29,7 @@ footer {
 }
 
 #headerCollapseButton:hover>span {
-  background-color: #AAA;
+  background-color: #999;
 }
 
 #header-navbar>ul>li>ul>li>a {
@@ -37,7 +38,7 @@ footer {
 }
 
 #header-navbar>ul>li>ul>li>a:hover, #header-navbar>ul>li>ul>li>a:focus {
-  background-color: #AAA;
+  background-color: #999;
 }
 
 #footerCarousel, #footerCarousel>div>div>a {
@@ -52,15 +53,23 @@ footer {
 }
 
 .menu-item {
-  background-color: #808;
+  background-color: #909;
   color: #FFF;
 }
 
 .menu-item:focus, .menu-item:hover {
   color: #FFF;
-  background-color: #AAA;
+  background-color: #999;
 }
 
 .version-change {
-  color: #FA0;
+  color: #F90;
+}
+
+#themeChoice {
+  float: right;
+}
+
+#themeChoice>a {
+  margin-right: 1em;
 }

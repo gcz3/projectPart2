@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/master.css">
     <link rel="stylesheet" type="text/css" href="../css/submit.css">
+    <script src="../js/theme.js"></script>
   </head>
   <body>
     <?php include('../includes/header.php') ?>
 
     <br><br>
-    
+
     <?php
       $servername = "localhost";
       $username = "root";

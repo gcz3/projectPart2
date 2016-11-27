@@ -47,5 +47,18 @@
     </div>
   </div>
 
-  <a href="https://twitter.com/share" class="twitter-share-button" data-text="@mattbowytz is the best teacher ever!!!" data-hashtags="CS1550" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <br>
+
+  <div>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="@mattbowytz is the best teacher ever!!!" data-hashtags="CS1550" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <div id="themeChoice">
+      <a href="#" onclick="darkTheme()">Dark Theme</a>
+      <a href="#" onclick="lightTheme()">Light Theme</a>
+    </div>
+  </div>
 </footer>
+
+<br>
+
+<script src="../../projectPart2/js/footer.js"></script>
