@@ -10,34 +10,26 @@ h2 {
 
 .frame-data-table>thead>tr>th {
   color: #FFF;
-  background-color: #808;
+  background-color: #909;
 }
 
 .table-striped>tbody>tr:nth-child(even)>td,
 .table-striped>tbody>tr:nth-child(even)>th {
   color: #FFF;
-  background-color: #808;
+  background-color: #909;
  }
 
- .table-striped>tbody>tr:nth-child(odd)>td,
- .table-striped>tbody>tr:nth-child(odd)>th {
-   color: #FFF;
-   background-color: #000;
-  }
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  color: #FFF;
+  background-color: #000;
+}
 
-  .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #066;
 }
 
 .balance-change {
-  color: #FA0 !important;
+  color: #F90;
   font-weight: bold;
-}
-
-.second-rekka {
-  text-indent: 1em;
-}
-
-.third-rekka {
-  text-indent: 2em;
 }

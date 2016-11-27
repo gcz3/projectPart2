@@ -134,8 +134,12 @@
 
         <br><br>
 
-        <span class="term version-change">Meaning of Orange Color:</span>
+        <span class="term version-change">
+          Meaning of Orange Color (Shades of Blue in Light Theme):
+        </span>
+
         <br>
+        
         <span class="version-change">Represents changes from UNIEL to UNIEL[st]
           and UNIEL[st] ver.3.10</span>
       </p>

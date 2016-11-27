@@ -1,3 +1,5 @@
+<script src="../../projectPart2/js/theme.js"></script>
+
 <header>
   <nav class="navbar navbar-dark bg-light" id="menu">
     <div class="container-fluid">

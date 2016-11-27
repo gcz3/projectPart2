@@ -18,11 +18,11 @@ p {
 .btn {
   font-size: 18px;
   color: #FFF;
-  background-color: #808;
-  border-color: #808;
+  background-color: #909;
+  border-color: #909;
 }
 
 .btn:focus, .btn:hover {
   color: #FFF;
-  background-color: #AAA;
+  background-color: #999;
 }
