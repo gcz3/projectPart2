@@ -14,7 +14,9 @@
 
     <div class="well section">
       <h4 class="section-title">Frame Data Table Explanation</h4>
+
       <br>
+
       <p>
         A unit is considered to be 1 frame. This is 1/60th of a second
         (16.667ms) where the game processes the input, decides what to do, and
@@ -139,9 +141,10 @@
         </span>
 
         <br>
-        
-        <span class="version-change">Represents changes from UNIEL to UNIEL[st]
-          and UNIEL[st] ver.3.10</span>
+
+        <span class="version-change">
+          Represents changes from UNIEL to UNIEL[st] and UNIEL[st] ver.3.10
+        </span>
       </p>
     </div>
 
@@ -149,7 +152,9 @@
 
     <div class="well section">
       <h4 class="section-title">Attacks</h4>
+
       <br>
+
       <p>
         Normal attacks A, B, and C can all be done standing, crouching, and
         jumping comprising 9 different moves. Inputting the joystick in
@@ -162,7 +167,9 @@
 
     <div class="well section">
       <h4 class="section-title">Throw</h4>
+
       <br>
+
       <p>
         <span class="term">Startup:</span>
         4F
@@ -201,7 +208,9 @@
 
     <div class="well section">
       <h4 class="section-title">Shield</h4>
+
       <br>
+
       <p>
         A special block that is performed by pressing D while holding the
         joystick in a blocking direction (the D button can be held down). If you
@@ -226,7 +235,9 @@
 
     <div class="well section">
       <h4 class="section-title">Assault (Not possible while GRD broken)</h4>
+
       <br>
+
       <p>
         A mini jump that is performed by holding the joystick forward and
         pressing D. If done while on the ground, the moment assault is inputted,
@@ -243,10 +254,13 @@
 
     <div class="well section">
       <h4 class="section-title">Tech/Ukemi</h4>
+
       <br>
+
       <p>
-        <span class="term">How to get up after getting hit by an air combo or
-          being knocked down:</span>
+        <span class="term">
+          How to get up after getting hit by an air combo or being knocked down:
+        </span>
         hold down a button and a direction on the joystick (can leave the
         joystick in neutral. holding the joystick in a direction will make the
         character go that way)

@@ -1,3 +1,9 @@
+/**
+ * addLightTheme() returns nothing
+ * adds the light theme stylesheet to a file to properly change the theme
+ *
+ * @return nothing
+ */
 function addLightTheme() {
   var newlink = document.createElement("link");
   newlink.setAttribute("rel", "stylesheet");
@@ -7,10 +13,16 @@ function addLightTheme() {
   document.getElementsByTagName("head").item(0).appendChild(newlink);
 }
 
-function getCookie(cname) {
-  var name = cname + "=";
+/**
+ * getCookie() returns the value of the lightTheme cookie
+ * used to determine whether to use the dark or light theme for the site
+ *
+ * @return {String} value of cookie
+ */
+function getCookie() {
+  var name = "lightTheme=";
   var ca = document.cookie.split(';');
-  for(var i = 0; i < ca.length; i++) {
+  for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
@@ -22,23 +34,39 @@ function getCookie(cname) {
   return "";
 }
 
+/**
+ * lightTheme() returns nothing
+ * runs when "Light Theme" is clicked on the page and adds CSS file if it is
+ * not already there and sets cookie
+ *
+ * @return nothing
+ */
 function lightTheme() {
-  var lightTheme = getCookie("lightTheme");
-  if (lightTheme==0) {
+  var lightTheme = getCookie();
+  if (lightTheme==='0' || lightTheme==='') {
     addLightTheme();
     document.cookie = "lightTheme=1;path=/projectPart2";
   }
 }
 
+/**
+ * darkTheme() returns nothing
+ * runs when "Dark Theme" is clicked on the page and gets result of cookie
+ * and if the light theme is currently being used, sets the cookie to off and
+ * reloads the page
+ *
+ * @return nothing
+ */
 function darkTheme() {
-  var lightTheme = getCookie("lightTheme");
-  if (lightTheme==1) {
+  var lightTheme = getCookie();
+  if (lightTheme==='1') {
     document.cookie = "lightTheme=0;path=/projectPart2";
     location.reload();
   }
 }
 
-var theme = getCookie("lightTheme");
-if (theme==1) {
+// determines whether to add the light theme stylesheet when a page loads
+var theme = getCookie();
+if (theme==='1') {
   addLightTheme();
 }
