@@ -5,12 +5,12 @@
  * @return nothing
  */
 function addLightTheme() {
-  var newlink = document.createElement("link");
-  newlink.setAttribute("rel", "stylesheet");
-  newlink.setAttribute("type", "text/css");
-  newlink.setAttribute("href", "../../projectPart2/css/light_theme.css");
+  var newlink = document.createElement('link');
+  newlink.setAttribute('rel', 'stylesheet');
+  newlink.setAttribute('type', 'text/css');
+  newlink.setAttribute('href', '../../projectPart2/css/light_theme.css');
 
-  document.getElementsByTagName("head").item(0).appendChild(newlink);
+  document.getElementsByTagName('head').item(0).appendChild(newlink);
 }
 
 /**
@@ -20,7 +20,7 @@ function addLightTheme() {
  * @return {String} value of cookie
  */
 function getCookie() {
-  var name = "lightTheme=";
+  var name = 'lightTheme=';
   var ca = document.cookie.split(';');
   for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
@@ -31,7 +31,7 @@ function getCookie() {
       return c.substring(name.length, c.length);
     }
   }
-  return "";
+  return '';
 }
 
 // determines whether to add the light theme stylesheet when a page loads
