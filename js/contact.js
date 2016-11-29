@@ -18,9 +18,9 @@ function errorMessage(message) {
 
 $(document).ready(function() {
   $('#contactForm').submit(function() {
-    $('#emailField').removeClass('has-error')
+    $('#emailField').removeClass('has-error');
     $('#emailField + p').remove();
-    $('#messageField').removeClass('has-error')
+    $('#messageField').removeClass('has-error');
     $('#messageField + p').remove();
 
     var email = $('#i_email').val();
@@ -28,16 +28,26 @@ $(document).ready(function() {
 
     if(email === '' || message === '') {
       if(email === '') {
-        $('#emailField').addClass('has-error')
-        var error = errorMessage('Please enter an email address.')
+        $('#emailField').addClass('has-error');
+        var error = errorMessage('Please enter an email address.');
         $('#emailField').after(error);
       }
       if(message === '') {
-        $('#messageField').addClass('has-error')
-        var error = errorMessage('Please enter a message.')
+        $('#messageField').addClass('has-error');
+        var error = errorMessage('Please enter a message.');
         $('#messageField').after(error);
       }
       return false;
     }
+  });
+
+  $('#emailField').keyup(function() {
+      $('#emailField').removeClass('has-error');
+      $('#emailField + p').remove();
+  });
+
+  $('#messageField').keyup(function() {
+      $('#messageField').removeClass('has-error');
+      $('#messageField + p').remove();
   });
 });
