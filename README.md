@@ -6,6 +6,8 @@ This is my University of Pittsburgh CS 1520 Project Part 2.
 
 This is a website that I created that has frame data for all the characters in a fighting game titled *UNDER NIGHT IN-BIRTH Exe:Late[st]*.
 
+The old Project Part 1 can be found ***[HERE](https://github.com/gcz3/projectPart1)***.
+
 ## Note
 
 Obviously, with the frame data for each character coming from a database, if you fork this, when you try to click on a character's frame data page, an error message will appear and the table will not be filled out.
